@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>success login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04443bce-58f4-48ff-9578-13b801ac8591</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db9b09af-b551-4427-97b4-549985367131</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b8e8108-94ad-4d86-bb8a-3ce06ac8f41b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test20@gmail.com\r\n'</defaultValue>
+      <description></description>
+      <id>db9b09af-b551-4427-97b4-549985367131</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'password\r\n'</defaultValue>
+      <description></description>
+      <id>3b8e8108-94ad-4d86-bb8a-3ce06ac8f41b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

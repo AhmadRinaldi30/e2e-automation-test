@@ -17,26 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Homepage/button_product'))
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
-
-WebUI.click(findTestObject('Object Repository/register/a_ingin mencoba, daftar'))
-
-WebUI.setText(findTestObject('Object Repository/register/input_nama toko_name'), nama_toko)
-
-WebUI.setText(findTestObject('Object Repository/register/input_email_email'), '021024test@gmail.com')
-
-WebUI.doubleClick(findTestObject('Object Repository/register/input_nama toko_name'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/register/input_password_password'), 'adi5Xk5vyXR5kGgV+FdLIA==')
-
-WebUI.click(findTestObject('Object Repository/register/button_daftar'))
-
-WebUI.click(findTestObject('Object Repository/register/div_Toko berhasil didaftarkananda dapat men_b3a8bd'))
-
-WebUI.click(findTestObject('Object Repository/register/div_Toko berhasil didaftarkan'))
-
-WebUI.click(findTestObject('Object Repository/register/div_anda dapat menggunakan login sekarang'))
-
+WebUI.verifyElementVisible(findTestObject('Homepage/title_produk'))
 

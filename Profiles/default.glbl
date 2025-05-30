@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://kasirdemo.belajarqa.com/\r\n'</initValue>
+      <initValue>'https://kasirdemo.vercel.app/\r\n'</initValue>
       <name>baseUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
